@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+    <style>
+        p,
+        ul,
+        ol {
+            font-size: 30px;
+        }
+
+        /* CSS Pseudo Elements 🔗 */
+        p::first-line {
+            color: blue;
+        }
+
+        p::first-letter {
+            font-size: 60px;
+        }
+
+        /* marker sử dụng cho toàn cục */
+        /* ::marker {
+            color: red;
+        } */
+
+        /* li::marker {
+            color: red;
+        }
+
+        ul li::marker {
+            color: red;
+            font-size: 1.5em;
+        } */
+
+        .menu1 li::marker {
+            color: red;
+        }
+
+        .p1::before {
+            content: "Paragraph 1: ";
+            font-size: 60px;
+            color: red;
+        }
+
+        .p1::after {
+            content: "End paragraph 1.";
+            font-size: 60px;
+            color: red;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PARAGRAPH</h1>
+    <p class="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium quas, voluptatibus, eligendi
+        ratione
+        porro eius quisquam delectus nulla minima obcaecati possimus rem perspiciatis quod, tempora ab nobis
+        asperiores
+        recusandae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium quas, voluptatibus, eligendi ratione
+        porro eius quisquam delectus nulla minima obcaecati possimus rem perspiciatis quod, tempora ab nobis asperiores
+        recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium quas, voluptatibus,
+        eligendi ratione
+        porro eius quisquam delectus nulla minima obcaecati possimus rem perspiciatis quod, tempora ab nobis asperiores
+        recusandae!
+    </p>
+    <ul class="menu1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ol class="menu2">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+</body>
+
+</html>
