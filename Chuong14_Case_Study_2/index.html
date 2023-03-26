@@ -4,864 +4,650 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reponsive.css">  
-    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">  
-    <script src="jquery-3.6.0.min.js"></script>
     <title>Trang chủ</title>
-    
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> 
 </head>
 <body>
-    <section>
-        <div class="header">
-            <div id="top1">
-                <a href="index.html"><img src="image/1x/logo1.jpg" style="width: 90%; height: 190%;"></a>               
-            </div>
-            <div class="seachbox">
-                <input type="text" placeholder="Tìm Kiếm Sản Phẩm ">
-                <div class="seach-btn">
-                    <a href="#"><i class="fa fa-search fa-2x" aria-hidden="true" style="color: #0a0a0a;"></i></a>
-                </div>
-            </div>
-            <div id="phone">
-                <img src="image/phone.svg" alt="">
-                <p>Gọi đặt hàng:</p>
-                <h2>099999999</h2>
-            </div>
-            <div id="diachi">
 
-                <a href="https://goo.gl/maps/LK28Vc3hnCiNiG8Z8">
-                    <img src="image/user.svg" alt="icon_map">
-                    <p>Địa chỉ của shop</p></a>
+    <!-- header -->
+    <header class="py-3 bg-white fixed-top border-bottom border-dark">
+        <div class="d-flex container align-items-center justify-content-between">
+            <div class="">
+                <a href="index.html">
+                    <img class="header__logo" src="./assets/images/logodep.jpg" height="70px" alt="">
+                </a>
             </div>
-        </div>
-    </section>
-    <section id="menu">
-        <ul>
-            <li><a href="index.html"><b>TRANG CHỦ</b></a></li>
-            <li><a href="giay.html"><b>SẢN PHẨM</b></a>
-                <ul class="submenu">
-                    <li><a href="#"><b>CÁC LOẠI GIÀY</b></a>
-                        <ul class="submenu1">
-                            <li><a href="brand_giaybongda.html"><b>Giày Bóng Đá</b></a></li>
-                                <li><a href="brand_jordan.html"><b>Giày Jordan</b></a></li>
-                                <li><a href="#"><b>Vans</b></a></li>
-                                <li><a href="#"><b>Giày Da</b></a></li>
-                                <li><a href="#"><b>Nike</b></a></li>
-                                <li><a href="#"><b>Puma</b></a></li>
-                                <li><a href="#"><b>Adidas</b></a></li>
-                                <li><a href="#"><b>Fila</b></a></li>
-                                <li><a href="#"><b>Balenciaga</b></a></li>
-                                
-                        </ul>
-                    </li>
-                    <li><a href="#"><b>MỨC GIÁ</b></a>
-                        <ul class="submenu1">
-                            <li><a href="#"><b>dưới 1 triệu</b></a></li>
-                            <li><a href="#"><b>từ 1 đến 3 triệu</b></a></li>
-                            <li><a href="#"><b>từ 3 đến 6 triệu</b></a></li>
-                            <li><a href="#"><b>từ 6 đến 12 triệu</b></a></li>
-                            <li><a href="#"><b>từ 12 đến 19 triệu</b></a></li>
-                            <li><a href="#"><b>trên 20 triệu</b></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="phu_kien.html"><b>PHỤ KIỆN</b></a></li>
-            <li><a href="thoitrang.html"><b>THỜI TRANG</b></a></li>
-            <li><a href="sua_chua.html"><b>SỬA CHỮA</b></a></li>
-            <li><a href="login.html"><b>ĐĂNG NHẬP</b></a></li>
-        </ul>
-    </section>
-    <section>
-        <div class="via">
-            <div class="mySlides">
-              <img src="image/slider2.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-              <img src="image/slider3.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-              <img src="image/slider4.jpg" style="width:100%">
-            </div>
-        </div>
-        <script src="js/jsslide_via.js"></script>
-    </section>
-    <section id="hang-hot">
-        <div class="tieu-de">
-            <p>SẢN PHẨM BÁN CHẠY</p>           
-        </div>
-        <hr size="5px" width="82%" color="coral" style="margin-bottom: 20px; margin-left: 9%;">
-        <div class="sp-hot">
-            <div class="hot-brand">
-                <div class="bao">
-                    <a href="bongda2.html"><img src="image/t1.jpg" style= "width:70%">
-                    <div class="box-name">Giày Bóng Đá</div>
-                    <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                        <span>5.190.000 ₫</span>
-                        <span style="text-decoration:line-through ; color: gray; font-size: 12px;">6.290.000 ₫</span>
-                    </div></a>
-                    <div class="danh-gia">
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <span style="font-size: 12px;">5 đánh giá</span>
-                    </div>                                                      
-                </div>                              
-            </div>
-            <div class="hot-brand">
-                <div class="bao">
-                    <a href="bongda3.html"><img src="image/bongda3.jpg" style= "width:70%">
-                    <div class="box-name">Giày sân nhân tạo</div>
-                    <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                        <span>3.600.000 ₫</span>
-                        <span style="text-decoration:line-through ; color: gray; font-size: 12px;">4.290.000 ₫</span>
-                    </div></a>
-                    <div class="danh-gia">
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <span style="font-size: 12px;">11 đánh giá</span>
-                    </div>
-                </div>                              
-            </div>
-            <div class="hot-brand">
-                <div class="bao">
-                    <a href="bongda5.html"><img src="image/t2.webp" style= "width:70%">
-                    <div class="box-name">Giày Bóng Đá Nam</div>
-                    <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                        <span>5.900.000 ₫</span>
-                        <span style="text-decoration:line-through ; color: gray; font-size: 12px;">6.690.000 ₫</span>
-                    </div></a>
-                    <div class="danh-gia">
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <span style="font-size: 12px;">8 đánh giá</span>
-                    </div>
-                </div>                              
-            </div>
-            <div class="hot-brand">
-                <div class="bao">
-                    <a href="jd2.html">
-                        <img src="image/jd1.jpg" style= "width:70%">
-                        <div class="box-name">Jordan Hàng Hiệu | VN/A</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>19.800.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 12px;">22.990.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">4 đánh giá</span>
-                        </div>
-                    </a>
+            <nav class="header__menu">
+                <ul class="nav">
+                    <li class="nav-item m-1"><a class="nav-link text-dark nav-item__after" href="index.html">TRANG CHỦ</a></li>
+                    <li class="nav-item m-1" onmouseover="add_li_hover(this)" onmouseout="remove_li_hover(this)"><a class="nav-link text-dark" href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li class="nav-item m-1 position-relative header__item_3" onmouseover="add_li_hover(this), show()" onmouseout="remove_li_hover(this), hide()"><a class="nav-link text-dark" href="sanpham.html">SẢN PHẨM <i class="fas fa-caret-down"></i></a>
+                        <div class="position-absolute container bg-white border-dark border mega-content d-none" style="z-index: 3;top: calc(100% + 29px);left: -430%; width: 1200px;animation: Growth ease-in .3s;">
+                            <div class="row py-4 px-1">
+                                <div class="col-md-9">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Dưỡng da</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Mặt nạ</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Kem dưỡng</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Kem chống nắng</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Xịt khoáng</a></li>
+                                            </ul>
+                                        </div>
                 
-                </div>                          
-            </div>
-            <div class="hot-brand">
-                <div class="bao">
-                    <a href="jd7.html"><img src="image/jd8.png" style= "width:70%">
-                    <div class="box-name">Jordan</div>
-                    <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                        <span>6.450.000 ₫</span>
-                        <span style="text-decoration:line-through ; color: gray; font-size: 12px;">6.990.000 ₫</span>
-                    </div></a>
-                    <div class="danh-gia">
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                        <span style="font-size: 12px;">10 đánh giá</span>
-                    </div>
-                </div>
-                         
-            </div>
-        </div>
-    </section>
-    <section id="san-pham-chinh">
-        <div class="tieu-de">
-            <p>GIÀY NỔI BẬT</p>           
-        </div>
-        <hr size="5px" width="82%" color="coral" style="margin-bottom: 20px; margin-left: 9%;">
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                            <img src="image/jd4.jpg" style="width:70%">
-                            <div class="box-name">Jordan | Chính hãng VN/A</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>19.800.000 ₫</span>
-                                <span style="text-decoration:line-through ; color: gray; font-size: 13px;">22.990.000 ₫</span>
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Làm sạch</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Sữa rửa mặt</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Dầu tẩy trang</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Kem tẩy trắng</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Nước tẩy trắng</a></li>
+                                            </ul>
+                                        </div>
+                
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Trang điểm nền</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Kem lót</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Kem tạo hiệu ứng</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Kem che khuyết điểm</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Phấn phủ bột</a></li>
+                                            </ul>
+                                        </div>
+                
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Trang điểm mắt môi</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Son thỏi</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Son dưỡng</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Màu mắt</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Viền mắt</a></li>
+                                            </ul>
+                                        </div>
+                
+                                    </div>
+                
+                                    <div class="row mt-3">
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Chăm sóc cơ thể</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Sửa tắm</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Sữa dưỡng thể</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Nước hoa</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Dầu gội,xả</a></li>
+                                            </ul>
+                                        </div>
+                
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Dược mỹ phẩm</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Dưỡng ẩm da</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Dưỡng trắng da</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Chống lão hóa da</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Tẩy tế bào chết</a></li>
+                                            </ul>
+                                        </div>
+                
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Sức khỏe - Làm đẹp</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Tinh dầu</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Nước tẩy trang</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Thực phẩm làm đẹp</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Nước hoa</a></li>
+                                            </ul>
+                                        </div>
+                
+                                        <div class="col-md-3">
+                                            <a href=""><h6>Thực phẩm chức năng</h6></a>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item"><a class="nav-link" href="">Vitamin - Khoáng chất</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Chống não hóa da</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Sữa dưỡng thể</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="">Dầu tẩy trang</a></li>
+                                            </ul>
+                                        </div>
+                
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href=""><img src="./assets/images/banner_menu_1.jpg" alt=""></a>
+                                </div>
                             </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/jd3.jpg" style="width:70%">
-                        <div class="box-name">Jordan | Chính hãng VN/A</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>25.980.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">30.990.000 ₫</span>
                         </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/giayda2.jpg" style="width:70%">
-                        <div class="box-name">Giày Da - Chính hãng</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>25.200.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">26.300.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                            <img src="image/giayda4.jpg" style="width:70%">
-                            <div class="box-name">Giày Da Nhập Khẩu</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>46.500.000 ₫</span>
-                                <span style="text-decoration:line-through ; color: gray; font-size: 13px;">49.990.000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/giayda8.png" style="width:70%">
-                        <div class="box-name">Giầy Da</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>18.490.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">21.990.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/giayda5.jpg" style="width:70%">
-                        <div class="box-name">Giày Da | Chính hãng VN/A</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>15.800.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">18.000.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/jd2.jpg" style= "width:70%">
-                        <div class="box-name">Jordan (Fan Edition)</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>11.090.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">15.490.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/jd6.jpg" style= "width:70%">
-                        <div class="box-name">Jordan Custom</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>20.490.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">32.990.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/t1.jpg" style="width:70%">
-                        <div class="box-name">Giày Bóng Đá</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>8.240.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">8.690.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/jd5.jpg" style="width:70%">
-                        <div class="box-name">Jordan</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>16.900.000 ₫</span>
-                            <!-- <span style="text-decoration:line-through ; color: gray; font-size: 13px;">22.990.000 ₫</span> -->
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/t2.webp" style="width:70%">
-                        <div class="box-name">Giày Bóng Đá</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>2.390.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">2.690.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <img src="image/giayda7.jpg" style="width:70%">
-                        <div class="box-name">Giày Da</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>10,990,000 VNĐ</span>
-                            <!-- <span style="text-decoration:line-through ; color: gray; font-size: 13px;">22.990.000 ₫</span> -->
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </section>
-    <section id="phu-kien">
-        <div class="tieu-de">
-            <p>PHỤ KIỆN</p>           
-        </div>
-        <hr size="5px" width="82%" color="coral" style="margin-bottom: 20px; margin-left: 9%;">
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk1.jpg" style="width:70%">
-                            <div class="box-name">Sticker Dạng móc trang trí</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>690,000 ₫</span>
-                                <!-- <span style="text-decoration:line-through ; color: gray; font-size: 13px;">22.990.000 ₫</span> -->
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk2.jpg" style="width:65%">
-                        <div class="box-name">Đế Giày</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>360.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">400.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                        <img src="image/a1/pk3.jpg" style="width:70%">
-                        <div class="box-name">Hộp Giày</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>360.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">450.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk4.jpeg" style="width:70%">
-                            <div class="box-name">Tất Chân - Hàng Hãng</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>350.000 ₫</span>
-                                <span style="text-decoration:line-through ; color: gray; font-size: 13px;">450.000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk5.jpg" style="width:70%">
-                            <div class="box-name">Dép Hàng - Nhập Khẩu</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>3.290.000 ₫</span>
-                                <span style="text-decoration:line-through ; color: gray; font-size: 13px;">3.990.000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk6.jpg" style="width:70%">
-                        <div class="box-name">Dung dịch vệ sinh giày</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>12.490.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">13.900.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                        <img src="image/a1/pk7.jpg" style="width:70%">
-                        <div class="box-name">Sticker dạng gián trang trí giày</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>3.290.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">6.500.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/pk8.jpg" style="width:70%">
-                            <div class="box-name">Dây giày Nike sản xuất</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>5.900.000 ₫</span>
-                                <span style="text-decoration:line-through ; color: gray; font-size: 13px;">6.900.000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="do-choi-cong-nghe">
-        <div class="tieu-de">
-            <p>ĐỒ THỜI TRANG ĐI KÈM</p>           
-        </div>
-        <hr size="5px" width="82%" color="coral" style="margin-bottom: 20px; margin-left: 9%;">
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt1.png" style="width: 50%;">
-                            <div class="box-name">Huawei Watch - Chính hãng</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>2,090,000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt2.png" style="width: 50%;">
-                        <div class="box-name">Samsung Galaxy Watch5</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>14.490.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                        <img src="image/a1/tt3.png" style="width: 50%;">
-                        <div class="box-name">Xiaomi Watch5</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>10.590.000 ₫</span>
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">11.990.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt4.png" style="width: 50%;">
-                            <div class="box-name">Casio Watch pro </div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>490,000 ₫</span>
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                        <img src="image/a1/tt5.webp" style="width: 70%;">
-                        <div class="box-name">Túi MLB</div>
-                        <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                            <span>1.690.000 ₫</span>
-                         
-                            <span style="text-decoration:line-through ; color: gray; font-size: 13px;">1.890.000 ₫</span>
-                        </div>
-                        <div class="danh-gia">
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                            <span style="font-size: 12px;">10 đánh giá</span>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt6.png" style="width: 70%;">
-                            <div class="box-name">Túi Gucci</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>1.090.000 ₫</span>
-                               
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt7.webp" style="width: 70%;">
-                            <div class="box-name">Túi Louis Vuitton</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>9.090.000 ₫</span>
-                           
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-s-6 box">
-                <div class="contentsp">
-                    <div class="bao-sp-chinh">
-                        <a href="#">
-                            <img src="image/a1/tt8.png" style="width: 70%;">
-                            <div class="box-name">Túi Dior</div>
-                            <div style="color: red; margin-top: 5px; margin-left: 5px; font-size: 17px;">
-                                <span>4.900.000 ₫</span>
-                               
-                            </div>
-                            <div class="danh-gia">
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <i class="fas fa-star fa-xs" style="color: rgb(255, 217, 0);"></i>
-                                <span style="font-size: 12px;">10 đánh giá</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="thongtin">
-        <div class="header-thongtin">
-            <div class="nav__thongtin">
-                <div class="content_thongtin">
-                    <p>Hệ thống bán giày uy tín toàn quốc</p>
-                <ul>
-                    <li>Hotline 099.999.9999</li>
-                    <li>Cơ sở Hà Nội: 295 Khâm Thiên - Đống Đa - Hà Nội</li>
-                    <li>Cơ sở Phú Thọ:  Tp.Việt Trì - Phú Thọ</li>
-                    <li>Cơ sở TP.Hồ Chí Minh: 100 Thạnh Mỹ Lợi - Quận 2 - TP.Hồ Chí Minh</li>
+                    </li>
+                    <li class="nav-item m-1" onmouseover="add_li_hover(this)" onmouseout="remove_li_hover(this)"><a class="nav-link text-dark" href="tintuc.html">TIN TỨC</a></li>
+                    <li class="nav-item m-1" onmouseover="add_li_hover(this)" onmouseout="remove_li_hover(this)"><a class="nav-link text-dark" href="lienhe.html">LIÊN HỆ</a></li>
                 </ul>
+            </nav>
+            <div class="row">
+                <div class="search p-3 col-md-4 position-relative">
+                    <i class="fas fa-search icon-search"></i>
+                    <div class="position-absolute input-search">
+                        <form action="">
+                            <input class="form-control" type="text" placeholder="Nhập từ khóa tìm kiếm">
+                        </form>
+                    </div>
+                </div>
+                <div class="user p-3 col-md-4 position-relative">
+                    <i class="fas fa-user icon-user"></i>
+                    <div class="auth-form nav position-absolute">
+                        <ul class="navbar-nav m-auto w-100">
+                            <li class="nav-item"><a class="nav-link text-dark pl-1" href="register.html"><i class="icon-plus fas fa-user-plus"></i> Đăng ký</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark pl-1" href="login.html"><i class="far fa-user-circle"></i> Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bag p-3 col-md-4 position-relative">
+                    <i class="fas fa-shopping-bag icon-bag"><sup>0</sup></i>
+                    <div class="no_card position-absolute">
+                        <figure class="border border">
+                            <img src="./assets/images/no-cart.png" alt="">
+                            <figcaption class="text-center bg-white p-2">Chưa có sản phẩm</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="header-hotro">
-            <div class="nav__hotro">
-            <h3>HỖ TRỢ KHÁCH HÀNG</h3>
-            <ul>
-                <li><a href="#">Cách vệ sinh giày đúng cách</a></li>
-                <li><a href="#">Quy trình bảo hành giày</a></li>
-                <li><a href="#">Các phụ kiện trang trí giày nên có</a></li>
-            </ul>
-         </div>
+        
+        
+    </header>
+
+    <!-- content-->
+    <div class="banner container-fluid p-0" style="margin-top: 102px;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/images/bannerdep.jpg" height="800px" alt="First slide">
+                  
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/images/andriyko-podilnyk-F4AMM1293ag-unsplash.jpg" height="800px" alt="Second slide">
+                </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/images/pexels-beatrice-cornejo-3989775.jpg" height="800px" alt="Third slide">
+                  
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="header-dichvu">
-            <div class="nav__dichvu">
-                <h3>DỊCH VỤ KHÁCH HÀNG</h3>
-                <ul>
-                    <li><a href="#">Giới thiệu về Shop Giày</a></li>
-                    <li><a href="#">Hướng dẫn đặt hàng</a></li>
-                    <li><a href="#">Chính sách đổi trả và bảo hành</a></li>
-                    <li><a href="#">Chính sách bảo mật</a></li>
-                    <li><a href="#">Liên hệ Shop</a></li>
-                    <a href="index.html"><li>Hệ thống cửa hàng</li></a>
-                </ul>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row my-2 text-white bg-danger">
+            <div class="col-md-6 title">
+                <h3 class="">THƯƠNG HIỆU NỔI BẬT</h3>
+            </div>
+            <div class="col-md-6 mt-3">
+                <a href="sanpham.html" class="float-right text-white">Xem tất cả</a>
             </div>
         </div>
-        <div class="header-thanhtoan">
-            <div class="nav__thanhtoan">
-                <h3>THANH TOÁN</h3>
-                <ul>
-         <img src="image/Visa_Inc._logo.svg.png" style="width: 20%;">
-         <img src=" image/iconmastercard.png" style="width: 20%;">
-         <img src=" image/iconatm.png" style="width: 20%;">
-                </ul>
+        <div class="">
+            <div class="owl-carousel owl-theme">
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/logo-versace.png" height="174px" alt="">
+                    </a>
+                </div>
+                
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/revlon.jpg" height="174px" alt="">
+                    </a>
+                </div>
+      
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/sk2.jpg" height="174px" alt="">
+                    </a>
+                </div>
+      
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/son-mac.gif" height="174px" alt="">
+                    </a>
+                </div>
+      
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/Clinique.png" height="174px" alt="">
+                    </a>
+                </div>
+
+                <div class="item thuonghieu p-5">
+                    <a href="./sanpham.html">
+                        <img src="./assets/images/logo-gucci.png" height="174px" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row my-2 text-white bg-danger">
+            <div class="col-md-6 title">
+                <h3 class="">SẢN PHẨM KHUYẾN MẠI</h3>
+            </div>
+            <div class="col-md-6 mt-3">
+                <a href="sanpham.html" class="float-right text-white">Xem tất cả</a>
+            </div>
+        </div>
+        <div class="">
+            <div class="owl-carousel owl-theme">
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/product1.jpg" alt="">
+                        </a>
+
+                        <h6 class="product__name">Sữa tắm Victoria's Secret quyến rũ</h6>
+                        <div class="product__price">
+                          <p class="new_price">560,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/xit_khoang_gucci.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Xịt khoáng Gucci</h6>
+                        <div class="product__price">
+                          <p class="new_price">860,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/sua_tam_eros_versace.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Sữa tắm Eros Versace</h6>
+                        <div class="product__price">
+                          <p class="new_price">999,999đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_revion.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son Revion</h6>
+                        <div class="product__price">
+                          <p class="new_price">666,000đ</p>
+                          <p class="old_price">800,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_Mac_Retro.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son Mac Retro</h6>
+                        <div class="product__price">
+                          <p class="new_price">760,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container mt-5">
+        <div class="row my-2 text-white bg-danger">
+            <div class="col-md-6 title ">
+                <h3 class="">SẢN PHẨM MỚI</h3>
+            </div>
+            <div class="col-md-6 mt-3">
+                <a href="sanpham.html" class="float-right text-white">Xem tất cả</a>
+            </div>
+        </div>
+        <div class="">
+            <div class="owl-carousel owl-theme">
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_MAC_Chili.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son MAC Chili</h6>
+                        <div class="product__price">
+                          <p class="new_price">960,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_mac_407.png" alt="">
+                        </a>
+                        <h6 class="product__name">Son MAC 407</h6>
+                        <div class="product__price">
+                          <p class="new_price">2,320,000đ</p>
+                          <p class="old_price">3,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_gucci_rouge.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son GUCCI rouge</h6>
+                        <div class="product__price">
+                          <p class="new_price">990,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_gucci_gold.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son GUCCI gold</h6>
+                        <div class="product__price">
+                          <p class="new_price">9,960,000đ</p>
+                          <p class="old_price">10,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/son_gucci_2020.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Son Gucci 2020</h6>
+                        <div class="product__price">
+                          <p class="new_price">998,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row my-2 text-white bg-danger">
+            <div class="col-md-6 title ">
+                <h3 class="">SẢN PHẨM NỔI BẬT</h3>
+            </div>
+            <div class="col-md-6 mt-3">
+                <a href="sanpham.html" class="float-right text-white">Xem tất cả</a>
+            </div>
+        </div>
+        <div class="">
+            <div class="owl-carousel owl-theme">
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/sk2.png" alt="">
+                        </a>
+                        <h6 class="product__name">Dưỡng da SK-2</h6>
+                        <div class="product__price">
+                          <p class="new_price">2,130,000đ</p>
+                          <p class="old_price">3,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/serum_duong_da_Olay_regenerist_50ml.png" alt="">
+                        </a>
+                        <h6 class="product__name">Serum Olay regenerist 50ml</h6>
+                        <div class="product__price">
+                          <p class="new_price">860,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/sap_tay_trang_Cliniue.png" alt="">
+                        </a>
+                        <h6 class="product__name">Sáp tẩy trang Cliniqueq</h6>
+                        <div class="product__price">
+                          <p class="new_price">560,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/product3.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Nước tẩy sơn móng tay</h6>
+                        <div class="product__price">
+                          <p class="new_price">260,000đ</p>
+                          
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+
+                <div class="item border">
+                    <div class="product px-2">
+                        <a href="./demo_sanpham.html">
+                          <img class="product-img" src="./assets/images/product1.jpg" alt="">
+                        </a>
+                        <h6 class="product__name">Sữa tắm Victoria's Secret quyến rũ</h6>
+                        <div class="product__price">
+                          <p class="new_price">560,000đ</p>
+                          <p class="old_price">1,000,000đ</p>
+                        </div>
+                        <button class="btn btn-success mt-3 w-100">Thêm vào giỏ hàng</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="container">
+        <h3 class="text-center mt-5 badge-danger py-2" style="margin: 0 -14px;">TIN TỨC & KHUYẾN MẠI</h3>
+          <div class="row card-deck mt-4">
+              <div class="card col-md-6">
+                <a href="./tintuc_1.html"><img src="./assets/images/img_tintuc1.jpg" width="510px" alt=""></a>
+                <span class="my-3"><i class="far fa-clock"></i> 22:22 - 23-6-2021</span>
+                <h3><a href="./tintuc_1.html" class="news__title">Mách cho bạn bí quyết trị nám tại nhà hiệu quả nhất</a></h3>
+                <p>Da chúng ta dễ bị thâm nám là do tiếp xúc với ánh nắng mặt trời thường xuyên, chế độ ăn uống ngh....</p>
+                <button class="btn btn-info mb-3"><a href="" class="d-block text-white">Xem thêm</a></button>
+              </div>
+      
+              <div class="card col-md-6">
+                <a href="tintuc_2.html"><img src="./assets/images/img_tintuc2.jpg" width="510px" alt=""></a>
+                <span class="my-3"><i class="far fa-clock"></i> 22:22 - 23-6-2021</span>
+                <h3><a href="tintuc_2.html" class="news__title">Xu hướng lông mày năm 2021 không thể không biết</a></h3>
+                <p>Nếu bạn đang có ý định làm đẹp đôi chân mày của mình nhưng không biết mẫu nào hót nhất....</p>
+                <button class="btn btn-info mb-3"><a href="" class="d-block text-white">Xem thêm</a></button>
+              </div>
+          </div>
+    </div>
+    
+    <!-- Tin tức -->
+    <div class="container-fluid mt-3 p-4" style="background-color: #ccc;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <div class=""><i style="font-size: 4.5rem;" class="text-secondary fas fa-undo-alt"></i></div>
+                    <div class="ml-3 text-secondary">
+                        <h5>CHÍNH SÁCH HOÀN TIỀN</h5>
+                        <p>
+                            Hoàn lại 100% nếu bạn không hài lòng về chất lượng sản phẩm
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div class=""><i style="font-size: 4.5rem;" class="text-secondary fas fa-gifts"></i></div>
+                    <div class="ml-3 text-secondary">
+                        <h5>ƯU ĐÃI SẢN PHẨM</h5>
+                        <p>
+                            Giúp người tiêu dùng sở hữu sản phẩm với giá ữu đãi tốt
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div class=""><i style="font-size: 4.5rem;" class="text-secondary fas fa-shipping-fast"></i></div>
+                    <div class="ml-3 text-secondary">
+                        <h5>GIAO HÀNG MIỄN PHÍ</h5>
+                        <p>
+                            Giao hàng miễn phí cho các hóa đơn trên 500.000đ
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark py-4">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-5">
+                    <h4 class="text-white">Fanpage</h4>
+                    <a href=""><i class="icon-facebook rounded fab fa-facebook"></i></a>
+                    <a href=""><i class="icon-twitter rounded fab fa-twitter-square"></i></a>
+                    <a href=""><i class="icon-google-plus rounded fab fa-google-plus"></i></a>
+                    <a href=""><i class="icon-wechat rounded fab fa-weixin"></i></a>
+                </div>
+
+                <div class="col-md-7 rounded">
+                    <h4 class="text-white">Đăng ký nhận thông tin</h4>
+                    <p class="text-white">Hãy cho chúng tôi email của bạn và bạn sẽ được cập nhật hàng ngày với các sự kiện mới nhất, chi tiết!</p>
+                    <div class="bg-white d-flex">
+                        <input class="w-100 border-0 pl-3" type="text" placeholder="Nhập email để đăng ký">
+                        <button class="btn col-md-2" style="background-color: turquoise;">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row pt-3">
+                <div class="col-md-3">
+                    <h4 class="text-white">Về chúng tôi</h4>
+                    <ul class="navbar-nav footer__menu">
+                        <li class="nav-item"><a class="nav-link text-secondary" href="#"><i class="fas fa-map-marker-alt"></i> Liêu Xá, Yên Mỹ, Hưng Yên</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="#"><i class="fas fa-phone"></i> 0368960711</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="#"><i class="fas fa-envelope"></i> tranvudai0210@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="text-white">Tin tức</h4>
+                    <ul class="navbar-nav footer__menu">
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Về chúng tôi</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Tuyển dụng</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Giới thiệu chung</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Giới thiệu cửa hàng</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Thời gian làm việc</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="text-white">Câu hỏi thường gặp</h4>
+                    <ul class="navbar-nav footer__menu">
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Hỏi đáp</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Liên hệ</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Khuyến mãi</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Mẹo sử dụng mỹ phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Sản phẩm hot</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="text-white">Chính sách</h4>
+                    <ul class="navbar-nav footer__menu">
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Chính sách bảo mật</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Chính sách bảo hành</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Chính sách vận chuyển</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Chính sách đổi hàng</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary" href="">Quy định thanh toán</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function add_li_hover(x){
+            $(x).addClass("nav-item__after");
+        }
+
+        function remove_li_hover(x){
+            $(x).removeClass("nav-item__after");
+        }
+
+        function hide(){
+            $(".mega-content").addClass("d-none");
+        }
+
+        function show(){
+            $(".mega-content").removeClass("d-none");
+        }
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:4,
+            loop:true,
+            margin:10,
+            
+        });
+    </script>
 </body>
 </html>

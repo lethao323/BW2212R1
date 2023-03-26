@@ -21,29 +21,27 @@
 
     <div class="col-md-6 p-5 mt-5">
       <div class="text-center" style="max-width: 550px;">
-        <h4>EMBODY - Đăng nhập</h4>
-        <p>Xin chào, vui lòng nhập thông tin đăng nhập</p>
+        <h4>EMBODY - Đăng ký</h4>
+        <p>Xin chào, vui lòng nhập thông tin đăng ký</p>
         <div>
           <form action="">
-            <input class="form-control my-3 p-2 taikhoan" name="taikhoan" type="text" placeholder="Tên đăng nhập">
-            <input class="form-control my-3 p-2 matkhau" name="matkhau" type="password" placeholder="Mật khẩu">
+            <input class="form-control my-3 p-2" type="text" placeholder="Tên đăng nhập">
+            <input class="form-control my-3 p-2" type="password" placeholder="Mật khẩu">
+            <input class="form-control my-3 p-2" type="password" placeholder="Nhập lại mật khẩu">
+            <input class="form-control my-3 p-2" type="email" placeholder="Địa chỉ email">
+            <input class="form-control my-3 p-2" type="number" placeholder="Số điện thoại">
           </form>
         </div>
-        <a class="float-left mb-2" href="">Quên mật khẩu</a>
-        <button class="btn btn-primary w-100 btn__login">Đăng nhập</button>
-        <p class="float-left my-2" style="color: #ccc;">Hoặc</p>
-        <button class="btn btn-outline-info w-100">
-          <img src="./assets/images/google.jpg" width="25" alt="">
-          Đăng nhập với Google
-        </button>
+        <p style="color: #ccc;">Nhấn vào nút "Đăng ký", đồng nghĩa với việc bạn đồng ý với <a href="">Chính sách bảo mật</a> và <a href="">Các điều khoản dịch vụ</a> của EMBODY
+        </p>
+        <button class="btn btn-primary w-100">Đăng ký</button>
       </div>
 
       <div class="mt-5">
-        <p  style="color: #ccc;">Chưa có tài khoản EMBODY? <a href="register.html">Đăng ký ngay</a></p>
+        <p  style="color: #ccc;">Bạn đã có tài khoản EMBODY? <a href="login.html">Đăng nhập</a></p>
         <div class="mb-2">
           <a href="index.html">Quay lại trang chủ</a>
         </div>
-        
         <div class="row m-1">
           <div class="" style="cursor: pointer;">
             <span>
@@ -63,21 +61,8 @@
   
   <script>
     var window_height = $(window).height();
-    var _taikhoan
-    var _matkhau
     $(document).ready(function(){
       $(".body-content").css("height", window_height);
-
-      $(".btn__login").click(function(){
-        _taikhoan = $(".taikhoan").val();
-        _matkhau = $(".matkhau").val();
-        if(_taikhoan == "admin" && _matkhau == "1"){
-          window.location.href = '/admin';
-        }
-        else{
-          alert("Sai tài khoản hoặc mật khẩu")
-        }
-      })  
     })
   </script>
 </body>
